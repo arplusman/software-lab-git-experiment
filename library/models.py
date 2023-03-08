@@ -7,3 +7,11 @@ class Author(models.Model):
     birth_data = models.DateField()
     created = models.DateTimeField(auto_now=True)
     email = models.EmailField()
+
+
+class Book(models.Model):
+    name = models.CharField()
+    year = models.IntegerField()
+    number_of_pages = models.IntegerField()
+    edition = models.IntegerField()
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, related_name='books')
