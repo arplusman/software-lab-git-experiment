@@ -30,6 +30,10 @@ The idea of "atomic" actions is to handle the changes easier without causing any
 
 ## سوال ۳
 
+ Merging refers to combining changes from one branch into another branch. when we merge two brancher , the changes made in two of them will merge together and form a new merged version of code .
+ Pulling refers to downloading changes from a remote repository into our local repository and merging the change the remote one has with our local one . by pulling , we are actually updating our local version of code.
+ Fetching also downloads the changes from the remote repository like pull , but unlike pull , it does'nt automatically merge the changes with our local code. thus it will only available the changes for us and we should use another command in order to merge them.
+ 
 ## سوال ۴
 
 ## سوال ۵
