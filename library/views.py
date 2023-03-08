@@ -16,3 +16,8 @@ class CreateBook(generics.CreateAPIView):
 class ListAuthor(generics.ListAPIView):
     serializer_class = AuthorSerializer
     queryset = Author.objects.all()
+
+
+class ListBook(generics.ListAPIView):
+    serializer_class = BookSerializer
+    queryset = Book.objects.all()
