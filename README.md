@@ -66,4 +66,5 @@ Rebase is used to move the branch pointer to a new base commit.
 
 ## سوال ۵
 
+Stage refers to the process of preparing changes to be commited into the project. when yoyu make changes to your file git will consider them initialy as unstaged. So for commiting those changes you need to stage them. by using staging you will be able to choose which changes to be in the next commit.
 ## سوال ۶
