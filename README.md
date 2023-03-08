@@ -67,4 +67,6 @@ Rebase is used to move the branch pointer to a new base commit.
 ## سوال ۵
 
 Stage refers to the process of preparing changes to be commited into the project. when yoyu make changes to your file git will consider them initialy as unstaged. So for commiting those changes you need to stage them. by using staging you will be able to choose which changes to be in the next commit.
+
+Stash command is used to temporarily store the changes that are not ready to be commited. it actually saves our current state of working directory on a stack of unfinished changes which is called stash.
 ## سوال ۶
