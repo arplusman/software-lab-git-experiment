@@ -70,3 +70,4 @@ Stage refers to the process of preparing changes to be commited into the project
 
 Stash command is used to temporarily store the changes that are not ready to be commited. it actually saves our current state of working directory on a stack of unfinished changes which is called stash.
 ## سوال ۶
+ Each snapshot includes all of the files in our project, along with the contents of those files at the time the snapshot was taken. git uses commits to show the snapshots. it also includes some metadata such a authors , time and etc.
