@@ -59,6 +59,11 @@ Merging refers to combining changes from one branch into another branch. when we
  Fetching also downloads the changes from the remote repository like pull , but unlike pull , it does'nt automatically merge the changes with our local code. thus it will only available the changes for us and we should use another command in order to merge them.
 ## سوال ۴
 
+We use reverse command in order to undo a commit.
+Also reset command is used for moving the branch pointer into a specified commit .
+Restore command is used to restores files or directories into previous state.
+Rebase is used to move the branch pointer to a new base commit.
+
 ## سوال ۵
 
 ## سوال ۶
