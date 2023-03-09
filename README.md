@@ -28,7 +28,28 @@
 
 پس از ساختن بیس پروژه، قصد داریم تا یک برنامه‌ی کتابخانه‌ی آنلاین در این پروژه راه‌اندازی کنیم. برای این کار، یک شاخه با نام 
 <span dir="ltr">WIP-library-app</span>
-درست می‌کنیم تا توسعه‌ی این برنامه در پروژه را در این شاخه انجام دهیم.
+درست می‌کنیم تا توسعه‌ی این برنامه در پروژه را در این شاخه انجام دهیم. پس از توسعه‌ی برنامه، متوجه می‌شویم که روز تولید نویسنده به جای `birth_date`، `birth_data` نوشته شده‌است. برای حل این مشکل، یک شاخه با نام
+<span dir="ltr">bugfix-birhtdate</span>
+ایجاد میکنیم. همچنین،‌ اپ `library` در فایل تنظیمات اضافه نشده‌است. به همین دلیل یک شاخه با نام 
+<span dir="ltr">bugfix-install-library-app</span>
+نیز اضافه می‌کنیم. هم‌جنین در هر یک از دو شاخه تصمیم گرفته می‌شود که مقدار `max_length` برای نام و نام خانوادگی تغییر کند. که باعث ایجاد conflict در پروژه‌ی ما خواهد شد.
+
+<img width="1680" alt="Screenshot 1401-12-18 at 4 13 02 PM" src="https://user-images.githubusercontent.com/45389988/224026413-374625be-9d25-4f2f-b543-8d5ebcd59598.png">
+
+برای حل این conflict، فایل `models.py` را باز کرده و به کدی که می‌خواهیم نگه داریم و کدهای دیگر که با کد مربوطه تناقض دارند را پاک می‌کنیم:
+
+<img width="1680" alt="Screenshot 1401-12-18 at 4 13 35 PM" src="https://user-images.githubusercontent.com/45389988/224026524-8e750308-d7ef-44d8-acdf-24e708ae4ec0.png">
+
+<img width="1680" alt="Screenshot 1401-12-18 at 4 15 49 PM" src="https://user-images.githubusercontent.com/45389988/224026965-75ee624c-dd0e-4555-8d4a-db0ce71b3dff.png">
+
+حال، فایل مورد نظر را به حال استیج برده و کامیت می‌کنیم:
+
+<img width="702" alt="Screenshot 1401-12-18 at 4 17 39 PM" src="https://user-images.githubusercontent.com/45389988/224027367-9c01d311-9659-4e27-b303-cb456eb74a13.png">
+
+
+
+
+
 
 # پاسخ پرسش‌ها
 
