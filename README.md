@@ -46,8 +46,31 @@
 
 <img width="702" alt="Screenshot 1401-12-18 at 4 17 39 PM" src="https://user-images.githubusercontent.com/45389988/224027367-9c01d311-9659-4e27-b303-cb456eb74a13.png">
 
+ حال، فرض کنیم یک کانفلیت دیگر در این سیستم خواهیم داشت، ولی این بار در یک شاخه. برای این کار، فایل 
+ `requirements.txt`
+ را کمی تغییر می‌دهیم:
+ 
+<img width="1234" alt="Screenshot 1401-12-18 at 4 24 11 PM" src="https://user-images.githubusercontent.com/45389988/224029169-a62e6ab1-c985-4ff0-9855-b0df59df631c.png">
 
+هم‌چنین در کامپیوتر خود نیز در شاخه‌ی 
+`dev`
+ورژن این پکیج را تغییر می‌دهیم:
 
+<img width="979" alt="Screenshot 1401-12-18 at 4 25 37 PM" src="https://user-images.githubusercontent.com/45389988/224029494-381cdcf7-d099-4d26-97d8-22ef552bdad2.png">
+
+حال، سعی می‌کنیم تا تغییرات ایجادشده را پوش کنیم:
+
+<img width="839" alt="Screenshot 1401-12-18 at 4 29 51 PM" src="https://user-images.githubusercontent.com/45389988/224030565-e107c982-039e-4e2d-ac9d-8c9d7208f5b7.png">
+
+با توجه به conflict ایجاد شده، ابتدا این کانفلیکت را برطرف می‌کنیم:
+
+<img width="1680" alt="Screenshot 1401-12-18 at 4 27 09 PM" src="https://user-images.githubusercontent.com/45389988/224029811-aef6ee2f-67cc-462b-b048-9ec082e75638.png">
+
+<img width="504" alt="Screenshot 1401-12-18 at 4 27 55 PM" src="https://user-images.githubusercontent.com/45389988/224030003-dfbfa3ed-6609-4d17-889a-8e612d6a24eb.png">
+
+سپس تغییرات ایجادشده را commit و بعد push می‌کنیم:
+
+<img width="962" alt="Screenshot 1401-12-18 at 4 31 37 PM" src="https://user-images.githubusercontent.com/45389988/224031143-edc9da71-441d-46be-b705-74158fcdf5cb.png">
 
 
 
