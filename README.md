@@ -72,6 +72,13 @@
 
 <img width="962" alt="Screenshot 1401-12-18 at 4 31 37 PM" src="https://user-images.githubusercontent.com/45389988/224031143-edc9da71-441d-46be-b705-74158fcdf5cb.png">
 
+برای محافظت از شاخه نیز در قسمت setting، بخش branches محدودیت‌های لازم را اعمال می‌کنیم:
+
+
+<img width="1680" alt="Screenshot 1401-12-18 at 4 37 32 PM" src="https://user-images.githubusercontent.com/45389988/224032441-7335b6f4-5bc6-490e-8b5b-d37b9da4fb2a.png">
+
+
+
 
 
 # پاسخ پرسش‌ها
